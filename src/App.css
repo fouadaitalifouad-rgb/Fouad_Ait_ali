@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5fa;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #29245c;
+}
+
+.search {
+  margin: 25px;
+}
+
+input {
+  padding: 12px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  background: #7044dc;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 120px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card h3 {
+  font-size: 15px;
+}
+
+.container > img {
+  width: 180px;
+  height: 200px;
+  object-fit: contain;
+}
